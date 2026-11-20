@@ -1,207 +1,874 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shubhransu Jana - Software Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Shubhransu Jana | Java Backend Developer</title>
+
+    <meta name="description"
+          content="Shubhransu Jana - Java Backend Developer specialising in Java, Spring Boot, Microservices, PostgreSQL and REST API development.">
+
+    <meta name="author" content="Shubhransu Jana">
+    <meta name="theme-color" content="#0b1120">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <!-- <a href="#" class="logo">SJ</a> -->
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="hero container">
-            <div class="hero-content">
-                <h1>Shubhransu Jana</h1>
-                <h2>Software Developer</h2>
-                <p>Crafting impactful digital experiences through innovative web development</p>
-                <a href="#contact" class="cta-button">Get in Touch</a>
-            </div>
-            <div class="hero-image">
-                <img src="profile-picture.jpg" alt="Shubhransu Jana" class="profile-picture">
-            </div>
+
+<!-- NAVIGATION -->
+
+<header id="home">
+
+    <nav class="navbar">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">SJ<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section id="about" class="container">
-            <h2>About Me</h2>
-            <p>I'm a passionate software developer with a strong foundation in computer science and a keen interest in creating efficient, user-friendly software solutions. My experience in web development allows me to bring ideas to life through code.</p>
-        </section>
 
-        <section id="experience" class="container">
-            <h2>Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Software Developer</h3>
-                        <h4>WEB MP SOFT PVT LTD</h4>
-                        <p class="date">06/2023 - 09/2024</p>
-                        <p class="location">Heria, East Medinipur</p>
-                        <ul>
-                            <li>Developed financial reporting modules for society-level accounting software</li>
-                            <li>Created a Location Tracking Android App with Admin Dashboard</li>
-                            <li>Designed and implemented Pathology lab software</li>
-                        </ul>
-                    </div>
-                </div>
+    <!-- HERO -->
+
+    <section class="hero container">
+
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                JAVA BACKEND DEVELOPER
+            </span>
+
+            <h1>
+                Hi, I'm <span>Shubhransu Jana</span>
+            </h1>
+
+            <h2>
+                Building reliable backend applications.
+            </h2>
+
+            <p>
+                Software Developer specialising in Java and Spring Boot,
+                with experience in REST APIs, microservices, PostgreSQL
+                and enterprise application development.
+
+                Passionate about clean code, problem-solving
+                and continuous learning.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="resume.pdf" class="btn btn-primary"
+                   download="Shubhransu_Jana_Resume.pdf">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+
+                <a href="#projects" class="btn btn-outline">
+                    Explore My Work
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
             </div>
-        </section>
 
-        <section id="skills" class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <i class="fab fa-springboot"></i>
-                    <span>SpringBoot</span>
-                    <div class="progress" data-percent="90%"></div>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-postgresql"></i>
-                    <span>PostgreSQL</span>
-                    <div class="progress" data-percent="95%"></div>
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-php"></i>
-                    <span>PHP</span>
-                    <div class="progress" data-percent="95%"></div>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <span>MySQL</span>
-                    <div class="progress" data-percent="80%"></div>
+            <div class="social-links">
 
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-js"></i>
-                    <span>JavaScript</span>
-                    <div class="progress" data-percent="80%"></div>
-
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-java"></i>
-                    <span>Java</span>
-                    <div class="progress" data-percent="80%"></div>
-
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-html5"></i>
-                    <span>HTML</span>
-                    <div class="progress" data-percent="95%"></div>
-
-                </div>
-                <div class="skill-item">
-                    <i class="fab fa-css3-alt"></i>
-                    <span>CSS</span>
-                    <div class="progress" data-percent="90%"></div>
-
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Pathology Lab Software</h3>
-                    <p>Comprehensive system for managing patient records, test results, and inventory in pathology labs.</p>
-                    <a href="#" class="project-link">Learn More</a>
-                </div>
-                <div class="project-card">
-                    <h3>Location Tracking App</h3>
-                    <p>Android app with real-time location tracking and web-based admin dashboard.</p>
-                    <a href="#" class="project-link">Learn More</a>
-                </div>
-                <div class="project-card">
-                    <h3>RSA Algorithm Implementation</h3>
-                    <p>Implementation of the RSA cryptography algorithm for secure data encryption.</p>
-                    <a href="#" class="project-link">Learn More</a>
-                </div>
-                <div class="project-card">
-                    <h3>Weather Web Application</h3>
-                    <p>Interactive weather app providing real-time forecasts and meteorological data.</p>
-                    <a href="#" class="project-link">Learn More</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="education" class="container">
-            <h2>Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Bachelor of Technology</h3>
-                        <h4>Durgapur Institute Of Advanced Technology And Management</h4>
-                        <p class="date">08/2018 - 06/2022</p>
-                        <p>CGPA: 8.73</p>
-                        <p>Computer Science And Engineering</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Class XII (Engineering & Technology)</h3>
-                        <h4>Kanaidighi Deshapran Vidyapith</h4>
-                        <p class="date">2017 - 2018</p>
-                        <p>Percentage: 89</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Class X</h3>
-                        <h4>Nachinda Jiban Krishna High School</h4>
-                        <p class="date">2015 - 2016</p>
-                        <p>Percentage: 68.14</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="container">
-            <h2>Get in Touch</h2>
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:janashubhransu19@gmail.com">janashubhransu19@zohomail.in</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+916296723021">6296723021</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Kharipukuria, East Medinipur, West Bengal, India</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://linkedin.com/in/shubhransu-jana" target="_blank">linkedin.com/in/shubhransu-jana</a>
-                </div>
-                <div class="contact-item">
+                <a href="https://github.com/shubhransujana19"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="GitHub">
                     <i class="fab fa-github"></i>
-                    <a href="https://github.com/shubhransujana19" target="_blank">github.com/shubhransujana19</a>
+                </a>
+
+                <a href="https://linkedin.com/in/shubhransu-jana"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:janashubhransu19@zohomail.in"
+                   aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="image-frame">
+                <img src="profile-picture.jpg"
+                     alt="Shubhransu Jana">
+            </div>
+
+            <div class="floating-card">
+                <i class="fas fa-code"></i>
+                <div>
+                    <strong>Java Developer</strong>
+                    <span>Spring Boot & Backend</span>
                 </div>
             </div>
-        </section>
-    </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Shubhransu Jana. All rights reserved.</p>
         </div>
-    </footer>
 
-    <script src="script.js"></script>
+    </section>
+
+</header>
+
+
+<main>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section container">
+
+        <div class="section-heading">
+            <span>INTRODUCTION</span>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+
+            <p>
+                I am a Software Developer currently working at Infosys,
+                specialising in Java backend development and
+                enterprise application development.
+            </p>
+
+            <p>
+                My professional experience includes working with
+                Java 21, Spring Boot, REST APIs, microservices,
+                Spring Data JPA, Hibernate and PostgreSQL.
+                I also work with Liquibase for database change
+                management and version control.
+            </p>
+
+            <p>
+                I have exposure to event-driven application workflows
+                using Apache Kafka, automated CI/CD pipelines,
+                code quality analysis and application monitoring.
+            </p>
+
+            <p>
+                Before transitioning into Java backend development,
+                I worked on PHP and MySQL-based web applications,
+                including financial reporting and management systems.
+            </p>
+
+            <p>
+                I believe in continuous learning, writing maintainable
+                code and becoming a better software engineer every day.
+            </p>
+
+        </div>
+
+
+        <div class="highlights">
+
+            <div class="highlight-card">
+                <i class="fas fa-building"></i>
+                <h3>Infosys</h3>
+                <p>Current Employer</p>
+            </div>
+
+            <div class="highlight-card">
+                <i class="fas fa-code"></i>
+                <h3>Backend Development</h3>
+                <p>Primary Focus</p>
+            </div>
+
+            <div class="highlight-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>B.Tech CSE</h3>
+                <p>CGPA: 8.73</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+
+    <section id="experience" class="section section-alt">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <span>MY JOURNEY</span>
+                <h2>Professional Experience</h2>
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="experience-card">
+
+                        <div class="experience-header">
+
+                            <div>
+                                <h3>Java Spring Boot Developer</h3>
+                                <h4>Infosys</h4>
+                            </div>
+
+                            <span class="date-badge">
+                                February 2025 - Present
+                            </span>
+
+                        </div>
+
+                        <p class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Bhubaneswar, Odisha, India
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Working on enterprise backend applications
+                                using Java 21 and Spring Boot.
+                            </li>
+
+                            <li>
+                                Developing REST APIs in a
+                                microservices-based architecture.
+                            </li>
+
+                            <li>
+                                Working with PostgreSQL, Spring Data JPA
+                                and Hibernate for database operations.
+                            </li>
+
+                            <li>
+                                Managing database schema changes
+                                and versioning using Liquibase.
+                            </li>
+
+                            <li>
+                                Implementing dynamic database queries
+                                using JPA Specifications, Criteria API
+                                and pagination.
+                            </li>
+
+                            <li>
+                                Working with Apache Kafka listeners
+                                and event-driven application workflows.
+                            </li>
+
+                            <li>
+                                Contributing to CI/CD workflows using
+                                GitHub Actions, Maven and Jenkins.
+                            </li>
+
+                            <li>
+                                Working with SonarQube quality gates,
+                                Black Duck and Datadog in development
+                                and delivery workflows.
+                            </li>
+
+                        </ul>
+
+                        <div class="tech-tags">
+                            <span>Java 21</span>
+                            <span>Spring Boot</span>
+                            <span>PostgreSQL</span>
+                            <span>Liquibase</span>
+                            <span>Kafka</span>
+                            <span>GitHub Actions</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="experience-card">
+
+                        <div class="experience-header">
+
+                            <div>
+                                <h3>Software Developer</h3>
+                                <h4>WEB MP SOFT PVT LTD</h4>
+                            </div>
+
+                            <span class="date-badge">
+                                June 2023 - September 2024
+                            </span>
+
+                        </div>
+
+                        <p class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Heria, East Medinipur, West Bengal
+                        </p>
+
+                        <ul>
+
+                            <li>
+                                Developed financial reporting modules
+                                for society-level banking and
+                                accounting software using PHP and MySQL.
+                            </li>
+
+                            <li>
+                                Developed a location tracking Android
+                                application with a web-based
+                                administration dashboard.
+                            </li>
+
+                            <li>
+                                Designed and implemented
+                                pathology laboratory management software.
+                            </li>
+
+                            <li>
+                                Worked on SQL queries, database
+                                management and application functionality.
+                            </li>
+
+                        </ul>
+
+                        <div class="tech-tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section container">
+
+        <div class="section-heading">
+            <span>MY TECH STACK</span>
+            <h2>Technical Skills</h2>
+        </div>
+
+
+        <div class="skills-categories">
+
+            <div class="skill-category">
+
+                <h3>
+                    <i class="fas fa-server"></i>
+                    Backend Development
+                </h3>
+
+                <div class="skill-list">
+                    <span>Java 21</span>
+                    <span>Spring Boot</span>
+                    <span>Spring MVC</span>
+                    <span>Spring Data JPA</span>
+                    <span>Hibernate</span>
+                    <span>REST APIs</span>
+                    <span>Microservices</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>
+                    <i class="fas fa-database"></i>
+                    Database & Messaging
+                </h3>
+
+                <div class="skill-list">
+                    <span>PostgreSQL</span>
+                    <span>MySQL</span>
+                    <span>SQL</span>
+                    <span>Liquibase</span>
+                    <span>Apache Kafka</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>
+                    <i class="fas fa-vial"></i>
+                    Testing & API Tools
+                </h3>
+
+                <div class="skill-list">
+                    <span>JUnit</span>
+                    <span>Mockito</span>
+                    <span>Postman</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>
+                    <i class="fas fa-code"></i>
+                    Frontend Development
+                </h3>
+
+                <div class="skill-list">
+                    <span>Angular (Knowledge)</span>
+                    <span>TypeScript</span>
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>
+                    <i class="fas fa-gears"></i>
+                    DevOps & Engineering Tools
+                </h3>
+
+                <div class="skill-list">
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>GitHub Actions</span>
+                    <span>Jenkins</span>
+                    <span>Maven</span>
+                    <span>SonarQube</span>
+                    <span>Black Duck</span>
+                    <span>Datadog</span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-category">
+
+                <h3>
+                    <i class="fas fa-laptop-code"></i>
+                    Other Technologies
+                </h3>
+
+                <div class="skill-list">
+                    <span>PHP</span>
+                    <span>MySQL Web Applications</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <p class="skills-note">
+            Additional exposure through project environments:
+            AWS and Kubernetes.
+        </p>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section section-alt">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <span>WHAT I'VE WORKED ON</span>
+                <h2>Projects & Development Work</h2>
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+
+                    <h3>Enterprise Backend Applications</h3>
+
+                    <p>
+                        Professional experience developing and
+                        maintaining enterprise backend applications
+                        using Java, Spring Boot, REST APIs and
+                        microservices architecture.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>JPA</span>
+                        <span>PostgreSQL</span>
+                    </div>
+
+                    <span class="project-label">
+                        Professional Experience
+                    </span>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+
+                    <h3>CI/CD Workflow Migration</h3>
+
+                    <p>
+                        Contributed to migrating Jenkins-based
+                        build and delivery workflows towards
+                        GitHub Actions with automated builds
+                        and code quality checks.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>Jenkins</span>
+                        <span>GitHub Actions</span>
+                        <span>Maven</span>
+                        <span>SonarQube</span>
+                    </div>
+
+                    <span class="project-label">
+                        Professional Experience
+                    </span>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+
+                    <h3>Society Banking Software</h3>
+
+                    <p>
+                        Developed financial reporting modules
+                        for society-level banking software,
+                        including accounting reports,
+                        database operations and reporting.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <span class="project-label">
+                        Previous Employment
+                    </span>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+
+                    <h3>Pathology Lab Software</h3>
+
+                    <p>
+                        Developed a laboratory management
+                        application for patient records,
+                        test information, reports and
+                        laboratory operations.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <span class="project-label">
+                        Previous Employment
+                    </span>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+
+                    <h3>Location Tracking Application</h3>
+
+                    <p>
+                        Developed an Android location tracking
+                        application with a web-based
+                        administration dashboard.
+                    </p>
+
+                    <span class="project-label">
+                        Previous Employment
+                    </span>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+
+                    <h3>Weather Web Application</h3>
+
+                    <p>
+                        Created an interactive weather
+                        application providing weather
+                        information through an external API.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>API</span>
+                    </div>
+
+                    <span class="project-label">
+                        Personal Project
+                    </span>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+
+    <section id="education" class="section container">
+
+        <div class="section-heading">
+            <span>ACADEMIC BACKGROUND</span>
+            <h2>Education</h2>
+        </div>
+
+
+        <div class="education-grid">
+
+            <div class="education-card">
+
+                <i class="fas fa-graduation-cap"></i>
+
+                <h3>Bachelor of Technology</h3>
+
+                <h4>
+                    Durgapur Institute of Advanced Technology
+                    and Management
+                </h4>
+
+                <p>Computer Science and Engineering</p>
+
+                <span>August 2018 - June 2022</span>
+
+                <strong>CGPA: 8.73</strong>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <i class="fas fa-school"></i>
+
+                <h3>Class XII</h3>
+
+                <h4>Kanaidighi Deshapran Vidyapith</h4>
+
+                <p>Engineering & Technology</p>
+
+                <span>2017 - 2018</span>
+
+                <strong>Percentage: 89%</strong>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <i class="fas fa-book-open"></i>
+
+                <h3>Class X</h3>
+
+                <h4>Nachinda Jiban Krishna High School</h4>
+
+                <p>Secondary Education</p>
+
+                <span>2015 - 2016</span>
+
+                <strong>Percentage: 68.14%</strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section section-alt">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <span>GET IN TOUCH</span>
+                <h2>Let's Connect</h2>
+            </div>
+
+            <p class="contact-intro">
+                I'm always interested in connecting with
+                developers, exploring new technologies and
+                discussing software engineering opportunities.
+            </p>
+
+
+            <div class="contact-grid">
+
+                <a href="mailto:janashubhransu19@zohomail.in"
+                   class="contact-item">
+
+                    <i class="fas fa-envelope"></i>
+
+                    <div>
+                        <strong>Email</strong>
+                        <span>janashubhransu19@zohomail.in</span>
+                    </div>
+
+                </a>
+
+
+                <a href="tel:+916296723021"
+                   class="contact-item">
+
+                    <i class="fas fa-phone"></i>
+
+                    <div>
+                        <strong>Phone</strong>
+                        <span>+91 6296723021</span>
+                    </div>
+
+                </a>
+
+
+                <a href="https://linkedin.com/in/shubhransu-jana"
+                   target="_blank" rel="noopener noreferrer"
+                   class="contact-item">
+
+                    <i class="fab fa-linkedin"></i>
+
+                    <div>
+                        <strong>LinkedIn</strong>
+                        <span>Connect with me</span>
+                    </div>
+
+                </a>
+
+
+                <a href="https://github.com/shubhransujana19"
+                   target="_blank" rel="noopener noreferrer"
+                   class="contact-item">
+
+                    <i class="fab fa-github"></i>
+
+                    <div>
+                        <strong>GitHub</strong>
+                        <span>Explore my repositories</span>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <a href="#home" class="logo">SJ<span>.</span></a>
+
+        <p>
+            Designed & Developed by Shubhransu Jana
+        </p>
+
+        <p>
+            &copy; 2026 All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
